@@ -16,7 +16,7 @@ public class ProgrammaParole {
 
 		System.out.print("Inserisci il numero di elementi da inserire: ");
 		int n = scanner.nextInt();
-		scanner.nextLine(); // Consuma il carattere di nuova linea dopo il numero
+		scanner.nextLine();
 
 		Set<String> parole = new HashSet<>();
 
