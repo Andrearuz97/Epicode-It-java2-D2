@@ -25,10 +25,11 @@ public class ProgrammaParole {
 			String parola = scanner.nextLine();
 			parole.add(parola);
 		}
-		scanner.close();
+
 		ElencoParole elencoParole = new ElencoParole(parole);
 		elencoParole.stampaParole();
 		elencoParole.stampaNumeroParoleDistinte();
 		elencoParole.stampaParoleDistinte();
+		scanner.close();
 	}
 }
